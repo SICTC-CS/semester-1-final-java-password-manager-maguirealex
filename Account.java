@@ -4,7 +4,7 @@ public class Account {
 
     
     //Constructor - builds an object
-    public Account(String name, String username, String password, String category){
+    public Account(String category, String name, String username, String password){
         //this is to allow java to connect the name variable to the object we call in 
         //  other files. Without this, Java will not understand what var you're accessing
         this.name = name;
@@ -50,6 +50,6 @@ public class Account {
 
     @Override
     public String toString() {
-        return "Account \nname=" + this.name + "\nusername=" + this.username + "\npassword=" + this.password + "\ncategory=" + this.category;
+        return "Account" +  "\ncategory=" + this.category +"\nname=" + this.name + "\nusername=" + this.username + "\npassword=" + this.password ;
     }
 }
