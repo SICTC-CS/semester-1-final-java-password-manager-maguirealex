@@ -50,6 +50,6 @@ public class Account {
 
     @Override
     public String toString() {
-        return "Account" +  "\ncategory=" + this.category +"\nname=" + this.name + "\nusername=" + this.username + "\npassword=" + this.password ;
+        return  "category=" + this.category +"\nname=" + this.name + "\nusername=" + this.username + "\npassword=" + this.password +"\n" ;
     }
 }
